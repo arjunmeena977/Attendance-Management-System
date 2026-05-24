@@ -1,0 +1,18 @@
+{
+  "name": "d-table-analytics-attendance",
+  "version": "1.0.0",
+  "description": "AttendPro — Full-Stack Attendance Management System",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && node src/seed.js"
+  },
+  "keywords": ["attendance", "mern", "react", "express", "mongodb"],
+  "author": "D-Table Analytics",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

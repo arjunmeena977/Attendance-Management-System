@@ -1,0 +1,65 @@
+2026-05-25 01:30:41 [INFO]: Server running in development mode on port 5000
+2026-05-25 01:30:42 [INFO]: MongoDB Connected: localhost
+2026-05-25 01:35:37 [INFO]: Server running in development mode on port 5000
+2026-05-25 01:35:37 [INFO]: MongoDB Connected: localhost
+2026-05-25 01:36:39 [INFO]: Server running in development mode on port 5001
+2026-05-25 01:36:39 [INFO]: MongoDB Connected: localhost
+2026-05-25 01:38:55 [INFO]: Server running in development mode on port 5001
+2026-05-25 01:38:55 [INFO]: MongoDB Connected: localhost
+2026-05-25 01:45:15 [INFO]: Server running in development mode on port 5002
+2026-05-25 01:45:15 [INFO]: MongoDB Connected: localhost
+2026-05-25 01:48:54 [INFO]: Server running in development mode on port 5000
+2026-05-25 01:48:55 [INFO]: MongoDB Connected: localhost
+2026-05-25 01:49:19 [INFO]: User logged in: admin@demo.com
+2026-05-25 01:49:19 [INFO]: ::1 - - [24/May/2026:20:19:19 +0000] "POST /api/auth/login HTTP/1.1" 200 489 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:49:19 [INFO]: ::1 - - [24/May/2026:20:19:19 +0000] "GET /api/overtime/pending?limit=1 HTTP/1.1" 200 48 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:49:26 [INFO]: ::1 - - [24/May/2026:20:19:26 +0000] "GET /api/attendance/team?date=2026-05-24&page=1&limit=20 HTTP/1.1" 200 48 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:49:27 [INFO]: ::1 - - [24/May/2026:20:19:27 +0000] "GET /api/overtime/pending?page=1&limit=20 HTTP/1.1" 200 48 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:49:29 [INFO]: ::1 - - [24/May/2026:20:19:29 +0000] "GET /api/users/?search=&role=&page=1&limit=15 HTTP/1.1" 200 1571 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:49:30 [INFO]: ::1 - - [24/May/2026:20:19:30 +0000] "GET /api/attendance/report/daily?date=2026-05-24 HTTP/1.1" 200 48 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:50:08 [INFO]: Admin created user: arjunmeena@gmail.com (employee)
+2026-05-25 01:50:08 [INFO]: ::1 - - [24/May/2026:20:20:08 +0000] "POST /api/users/ HTTP/1.1" 201 298 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:50:08 [INFO]: ::1 - - [24/May/2026:20:20:08 +0000] "GET /api/users/?search=&role=&page=1&limit=15 HTTP/1.1" 200 1820 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:50:31 [INFO]: User logged in: manager@demo.com
+2026-05-25 01:50:31 [INFO]: ::1 - - [24/May/2026:20:20:31 +0000] "POST /api/auth/login HTTP/1.1" 200 496 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:50:48 [INFO]: ::1 - - [24/May/2026:20:20:48 +0000] "GET /api/attendance/report/daily?date=2026-05-24 HTTP/1.1" 304 - "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:51:04 [INFO]: User logged in: employee@demo.com
+2026-05-25 01:51:04 [INFO]: ::1 - - [24/May/2026:20:21:04 +0000] "POST /api/auth/login HTTP/1.1" 200 520 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:51:04 [INFO]: ::1 - - [24/May/2026:20:21:04 +0000] "GET /api/attendance/today HTTP/1.1" 200 34 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:51:04 [INFO]: ::1 - - [24/May/2026:20:21:04 +0000] "GET /api/attendance/my?limit=30 HTTP/1.1" 200 48 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:51:35 [INFO]: User 6a1358d66c5dce924aad1d64 punched in at 2026-05-24T20:21:35.110Z
+2026-05-25 01:51:35 [INFO]: ::1 - - [24/May/2026:20:21:35 +0000] "POST /api/attendance/punch-in HTTP/1.1" 201 43401 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:51:35 [INFO]: ::1 - - [24/May/2026:20:21:35 +0000] "GET /api/attendance/today HTTP/1.1" 200 43364 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:51:44 [INFO]: ::1 - - [24/May/2026:20:21:44 +0000] "GET /api/attendance/my?startDate=&endDate=&page=1&limit=15 HTTP/1.1" 200 43382 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:52:37 [INFO]: ::1 - - [24/May/2026:20:22:37 +0000] "GET /api/attendance/report/daily?date=2026-05-24 HTTP/1.1" 200 43186 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:16 [INFO]: User logged in: manager@demo.com
+2026-05-25 01:53:16 [INFO]: ::1 - - [24/May/2026:20:23:16 +0000] "POST /api/auth/login HTTP/1.1" 200 496 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:16 [INFO]: ::1 - - [24/May/2026:20:23:16 +0000] "GET /api/overtime/pending?limit=1 HTTP/1.1" 304 - "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:20 [INFO]: ::1 - - [24/May/2026:20:23:20 +0000] "GET /api/attendance/team?date=2026-05-24&page=1&limit=20 HTTP/1.1" 200 43485 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:34 [INFO]: Attendance 6a135dcfe60e72a9885ec146 marked valid by manager@demo.com
+2026-05-25 01:53:34 [INFO]: ::1 - - [24/May/2026:20:23:34 +0000] "PATCH /api/attendance/6a135dcfe60e72a9885ec146/validate HTTP/1.1" 200 43506 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:34 [INFO]: ::1 - - [24/May/2026:20:23:34 +0000] "GET /api/attendance/team?date=2026-05-24&page=1&limit=20 HTTP/1.1" 200 43563 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:38 [INFO]: ::1 - - [24/May/2026:20:23:38 +0000] "GET /api/overtime/pending?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:45 [INFO]: ::1 - - [24/May/2026:20:23:45 +0000] "GET /api/attendance/report/daily?date=2026-05-24 HTTP/1.1" 200 43190 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:53 [INFO]: User logged in: admin@demo.com
+2026-05-25 01:53:53 [INFO]: ::1 - - [24/May/2026:20:23:53 +0000] "POST /api/auth/login HTTP/1.1" 200 489 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:53:55 [INFO]: ::1 - - [24/May/2026:20:23:55 +0000] "GET /api/users/?search=&role=&page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:55:04 [INFO]: Admin deactivated user: arjunmeena@gmail.com
+2026-05-25 01:55:04 [INFO]: ::1 - - [24/May/2026:20:25:04 +0000] "DELETE /api/users/6a135d77e60e72a9885ec134 HTTP/1.1" 200 46 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:55:04 [INFO]: ::1 - - [24/May/2026:20:25:04 +0000] "GET /api/users/?search=&role=&page=1&limit=15 HTTP/1.1" 200 1821 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:55:11 [INFO]: Admin updated user: arjunmeena@gmail.com
+2026-05-25 01:55:11 [INFO]: ::1 - - [24/May/2026:20:25:11 +0000] "PUT /api/users/6a135d77e60e72a9885ec134 HTTP/1.1" 200 299 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:55:11 [INFO]: ::1 - - [24/May/2026:20:25:11 +0000] "GET /api/users/?search=&role=&page=1&limit=15 HTTP/1.1" 200 1821 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:55:18 [INFO]: Admin updated user: arjunmeena@gmail.com
+2026-05-25 01:55:18 [INFO]: ::1 - - [24/May/2026:20:25:18 +0000] "PUT /api/users/6a135d77e60e72a9885ec134 HTTP/1.1" 200 298 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:55:18 [INFO]: ::1 - - [24/May/2026:20:25:18 +0000] "GET /api/users/?search=&role=&page=1&limit=15 HTTP/1.1" 200 1820 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:56:04 [INFO]: User logged in: employee@demo.com
+2026-05-25 01:56:04 [INFO]: ::1 - - [24/May/2026:20:26:04 +0000] "POST /api/auth/login HTTP/1.1" 200 520 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:56:04 [INFO]: ::1 - - [24/May/2026:20:26:04 +0000] "GET /api/attendance/today HTTP/1.1" 200 43412 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:56:04 [INFO]: ::1 - - [24/May/2026:20:26:04 +0000] "GET /api/attendance/my?limit=30 HTTP/1.1" 200 43430 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:56:21 [INFO]: User 6a1358d66c5dce924aad1d64 punched out. Total: 0.08h
+2026-05-25 01:56:21 [INFO]: ::1 - - [24/May/2026:20:26:21 +0000] "POST /api/attendance/punch-out HTTP/1.1" 200 43548 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:56:21 [INFO]: ::1 - - [24/May/2026:20:26:21 +0000] "GET /api/attendance/today HTTP/1.1" 200 43510 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:56:31 [INFO]: ::1 - - [24/May/2026:20:26:31 +0000] "GET /api/attendance/my?startDate=&endDate=&page=1&limit=15 HTTP/1.1" 200 43528 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:56:38 [INFO]: ::1 - - [24/May/2026:20:26:38 +0000] "GET /api/attendance/my?limit=30 HTTP/1.1" 200 43528 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+2026-05-25 01:56:58 [INFO]: ::1 - - [24/May/2026:20:26:58 +0000] "GET /api/attendance/report/daily?date=2026-05-24 HTTP/1.1" 200 43218 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
